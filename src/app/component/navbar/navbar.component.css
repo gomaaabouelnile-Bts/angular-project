@@ -1,0 +1,19 @@
+
+
+.navbar-collapse.collapse {
+    
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+    visibility: visible!important;
+}
+
+    .logo {
+        margin-left: 0px;
+        height: 45px;
+        
+    }
+    .navbar
+    {
+        padding:0rem 0rem;
+    }

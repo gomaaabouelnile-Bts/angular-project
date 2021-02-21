@@ -1,0 +1,65 @@
+// CSS Reset, comment out if not required or using a different module
+
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin.scss";
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-angular-grids/styles/material.css';
+.ag-theme-alpine {
+    @include ag-theme-alpine();
+}
+.toolbar
+{
+    color:black;
+}
+.tool
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: gainsboro;
+    padding: 5px;
+}
+.form-control.input-sm
+{
+    height: 31px;
+}
+
+.container2, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+    margin: 0px;
+}
+.container2 {
+    width: 99%;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 100%;
+    padding-right: auto; 
+     padding-left:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+body
+{
+    width: 99%;
+}
+
+// Uncomment the following lines if you want to add a custom palette:
+// $primary: #731963 !default;
+// $secondary: #ce5712 !default;
+// $app-palette: igx-palette($primary, $secondary);
+
+/* autoprefixer grid: on */
+
+
+
